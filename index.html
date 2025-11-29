@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mythili Devi | AI SEO & Digital PR Strategist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mythili Devi is an AI SEO & Digital PR Strategist helping brands earn AI citations, brand mentions, and high-intent traffic from Google, ChatGPT, Gemini, Perplexity & more." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mythili Devi | AI SEO & Digital PR Strategist" />
+  <meta property="og:description" content="I help brands become the default answer in AI search — across Google, ChatGPT, Gemini, Perplexity & more." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #111827;
+      background: #f9fafb;
+      line-height: 1.6;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    img {
+      max-width: 100%;
+      display: block;
+    }
+    /* Layout */
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+    }
+    .logo-text {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #4b5563;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      font-size: 14px;
+    }
+    nav a {
+      padding: 4px 8px;
+      border-radius: 999px;
+    }
+    nav a:hover {
+      background: #e5e7eb;
+    }
+
+    /* Hero */
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.3fr);
+      gap: 32px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+    .hero-kicker {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 32px;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .hero-highlight {
+      color: #2563eb;
+    }
+    .hero-sub {
+      font-size: 15px;
+      color: #4b5563;
+      margin-bottom: 20px;
+    }
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    .tag {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #e5edff;
+      color: #1d4ed8;
+    }
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn-primary {
+      background: #111827;
+      color: #f9fafb;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-primary:hover {
+      background: #000000;
+    }
+    .btn-ghost {
+      font-size: 14px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid #d1d5db;
+      background: #ffffff;
+      cursor: pointer;
+    }
+    .btn-ghost:hover {
+      background: #f3f4f6;
+    }
+    .hero-note {
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 6px;
+    }
+
+    .hero-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 18px 18px 16px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 18px 44px rgba(15, 23, 42, 0.1);
+    }
+    .hero-card-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #9ca3af;
+      margin-bottom: 6px;
+    }
+    .hero-metric {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .hero-metric-label {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 12px;
+    }
+    .hero-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    .hero-chip {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      color: #4b5563;
+    }
+    .hero-mini-caption {
+      font-size: 11px;
+      color: #9ca3af;
+      margin-top: 6px;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 32px;
+    }
+    .section-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+    .section-heading {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .section-text {
+      font-size: 14px;
+      color: #4b5563;
+    }
+
+    /* Grid Cards */
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+    @media (min-width: 768px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .grid-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 14px 14px 12px;
+      border: 1px solid #e5e7eb;
+    }
+    .card-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #9ca3af;
+      margin-bottom: 4px;
+    }
+    .card-title {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+    .card-text {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 6px;
+    }
+    .card-meta {
+      font-size: 11px;
+      color: #6b7280;
+    }
+
+    /* List */
+    .list {
+      font-size: 14px;
+      color: #4b5563;
+      padding-left: 16px;
+    }
+    .list li {
+      margin-bottom: 4px;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid #e5e7eb;
+      padding-top: 16px;
+      margin-top: 16px;
+      font-size: 12px;
+      color: #6b7280;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .footer-links a {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+  </style>
+
+  <!-- Simple Person JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mythili Devi",
+    "alternateName": "Mythili Online",
+    "jobTitle": "AI SEO & Digital PR Strategist",
+    "url": "https://mythiliseo.github.io",
+    "sameAs": [
+      "https://www.linkedin.com/in/mythilyonline",
+      "https://x.com/mythilyonline"
+    ],
+    "email": "mailto:mythilyonline@gmail.com"
+  }
+  </script>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <div class="logo-text">@mythilyonline</div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">What I Do</a>
+        <a href="#cases">Case Highlights</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div>
+          <div class="hero-kicker">AI SEO • DIGITAL PR • GEO</div>
+          <h1>
+            I help brands become the
+            <span class="hero-highlight">default answer</span>
+            in AI search.
+          </h1>
+          <p class="hero-sub">
+            I’m <strong>Mythili Devi</strong>, an AI SEO & Digital PR Strategist.
+            I design content, links, and citations so your brand shows up where
+            buying decisions actually happen — inside Google AI, ChatGPT,
+            Gemini, Perplexity & more.
+          </p>
+
+          <div class="hero-tags">
+            <span class="tag">AI Snippet Strategy</span>
+            <span class="tag">Generative Engine Optimization</span>
+            <span class="tag">Buying-Decision Content</span>
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn-primary" href="#contact">
+              Book a quick intro call →
+            </a>
+            <a class="btn-ghost" href="#cases">
+              View recent work
+            </a>
+          </div>
+          <p class="hero-note">
+            Ideal for: SaaS, D2C, EdTech, Organic Food, and expert-led brands.
+          </p>
+        </div>
+
+        <aside class="hero-card" aria-label="Signature offers">
+          <div class="hero-card-title">Signature Offers</div>
+
+          <div style="margin-bottom: 12px;">
+            <div class="hero-metric">10X AI-Ready Content Blueprint</div>
+            <div class="hero-metric-label">
+              Strategic outline + schema + AI snippet blocks for one high-intent page.
+            </div>
+            <div class="hero-chip-row">
+              <span class="hero-chip">Decision-journey mapping</span>
+              <span class="hero-chip">EEAT-ready</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 12px;">
+            <div class="hero-metric">Buying-Decision Page Rebuild</div>
+            <div class="hero-metric-label">
+              Full rewrite of your key money page to win both Google & AI answers.
+            </div>
+            <div class="hero-chip-row">
+              <span class="hero-chip">PAA + AI snippets</span>
+              <span class="hero-chip">Conversion-focused</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="hero-metric">AI Snippet & Topic Cluster Retainer</div>
+            <div class="hero-metric-label">
+              Monthly content + schema + link strategy to protect & grow your AI visibility.
+            </div>
+            <p class="hero-mini-caption">
+              Want details? Scroll to “What I do” or email: mythilyonline@gmail.com
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div class="section-title">About</div>
+        <h2 class="section-heading">Who I am & how I think about SEO now</h2>
+        <p class="section-text">
+          I’m an AI SEO & Digital PR Strategist who treats search, AI, and social
+          as one decision system. My work focuses on three things:
+        </p>
+        <ul class="list" style="margin-top: 8px;">
+          <li>Understanding where your buyers actually search and compare.</li>
+          <li>Designing pages, clusters, and links that answer those decisions.</li>
+          <li>Earning citations and brand mentions inside AI answers — not just blue links.</li>
+        </ul>
+        <p class="section-text" style="margin-top: 8px;">
+          I’ve worked across <strong>EdTech, Organic Food, Services, and B2B</strong>,
+          helping brands turn invisible pages into assets that attract demos, leads,
+          and word-of-mouth — even in AI-dominated SERPs.
+        </p>
+      </section>
+
+      <!-- Services -->
+      <section id="services">
+        <div class="section-title">What I Do</div>
+        <h2 class="section-heading">Ways I can help your brand</h2>
+
+        <div class="grid grid-3" style="margin-top: 12px;">
+          <article class="card">
+            <div class="card-label">Offer A</div>
+            <h3 class="card-title">10X AI-Ready Content Blueprint</h3>
+            <p class="card-text">
+              A complete blueprint for one high-value page: structure, sections,
+              entities, schema, and AI snippet blocks so your content becomes the
+              easiest page for AI systems to trust and quote.
+            </p>
+            <p class="card-meta">
+              Best for: landing pages, service pages, high-intent blogs.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-label">Offer B</div>
+            <h3 class="card-title">Buying-Decision Page Rebuild</h3>
+            <p class="card-text">
+              I rewrite your existing page into a high-converting, AI-snippet-friendly
+              asset — with FAQs, HowTo, comparisons, social proof, and clear CTAs,
+              backed by competitor gap analysis.
+            </p>
+            <p class="card-meta">
+              Best for: “money pages” that should be closing demand, not just getting clicks.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-label">Retainer</div>
+            <h3 class="card-title">AI Snippet & Topic Cluster Management</h3>
+            <p class="card-text">
+              Ongoing support to map topics, ship pages, refine schema, and
+              monitor how you show up in AI answers — then fix gaps before
+              they cost you demos and revenue.
+            </p>
+            <p class="card-meta">
+              Best for: SaaS, D2C, EdTech, and organic brands wanting steady compounding gains.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Case Highlights -->
+      <section id="cases">
+        <div class="section-title">Case Highlights</div>
+        <h2 class="section-heading">Snapshots of the kind of work I do</h2>
+        <p class="section-text">
+          Full case studies are available on request. Here are a few quick examples:
+        </p>
+
+        <div class="grid grid-2" style="margin-top: 12px;">
+          <article class="card">
+            <div class="card-label">Example 1</div>
+            <h3 class="card-title">Organic Food Brand – AI Citation Lift</h3>
+            <p class="card-text">
+              Rebuilt their “organic food brands” content into a 10X guide +
+              schema + outreach. Result: stronger presence across AI platforms
+              and more branded searches from high-intent readers.
+            </p>
+            <p class="card-meta">
+              Focus: content depth, schema, and editorial placements.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-label">Example 2</div>
+            <h3 class="card-title">Training Provider – Buying-Decision Page</h3>
+            <p class="card-text">
+              Turned a generic course page into a true buying-decision hub:
+              comparisons, FAQs, outcomes, and AI-friendly sections.
+              Helped align Google ranking signals with student decision signals.
+            </p>
+            <p class="card-meta">
+              Focus: PAA, AI snippets, and conversion copy.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="section-title">Contact</div>
+        <h2 class="section-heading">Let’s talk about your AI visibility</h2>
+        <p class="section-text">
+          If you’d like help turning your existing pages into AI-ready,
+          conversion-focused assets, you can reach me here:
+        </p>
+        <ul class="list" style="margin-top: 8px;">
+          <li>Email: <a href="mailto:mythilyonline@gmail.com">mythilyonline@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/mythilyonline" target="_blank" rel="noopener">linkedin.com/in/mythilyonline</a></li>
+        </ul>
+        <p class="section-text" style="margin-top: 8px;">
+          In your message, share 1–2 URLs you care about most (landing page, product page, or blog),
+          and I’ll suggest where AI SEO + Digital PR can move the needle fastest.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Mythili Devi — AI SEO & Digital PR Strategist</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#cases">Case Highlights</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Set current year automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
